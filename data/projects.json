@@ -1,0 +1,272 @@
+{
+ "categories": [
+  "AI & ML",
+  "Technology",
+  "Healthcare",
+  "IoT",
+  "Energy",
+  "Mechanical & Electrical",
+  "Fintech & Blockchain",
+  "Agriculture",
+  "Cybersecurity",
+  "Web & Systems"
+ ],
+ "projects": [
+  {
+   "id": 1,
+   "title": "Project Title One",
+   "institute": "ITER",
+   "category": "AI & ML",
+   "pitch": "One-line pitch goes here.",
+   "stall": "A01",
+   "photo": "https://www.abinya.in/gallery/f5.webp",
+   "finalist": true,
+   "revealed": true,
+   "about": "Write the project description here: the problem it solves, how it works, who it helps and what makes it different. Two or three short paragraphs work well.",
+   "technologies": [
+    "Python",
+    "Machine Learning",
+    "Pandas",
+    "React"
+   ],
+   "video": "https://youtu.be/YW7Uc5_ixtM?si=9Y_JLoCrg9rj3fVP",
+   "gallery": [
+    "https://www.abinya.in/gallery/f1.webp",
+    "https://www.abinya.in/gallery/f2.webp",
+    "https://www.abinya.in/gallery/f3.webp",
+    "https://www.abinya.in/gallery/f4.webp"
+   ],
+   "developers": [
+    {
+     "name": "Developer Name",
+     "role": "Team Lead",
+     "photo": ""
+    },
+    {
+     "name": "Developer Name",
+     "role": "Backend Developer",
+     "photo": ""
+    },
+    {
+     "name": "Developer Name",
+     "role": "UI Designer",
+     "photo": ""
+    }
+   ],
+   "team": "Team Alpha"
+  },
+  {
+   "id": 2,
+   "title": "Project Title Two",
+   "institute": "ITER",
+   "category": "IoT",
+   "pitch": "One-line pitch goes here.",
+   "stall": "A02",
+   "photo": "https://www.abinya.in/gallery/f6.webp",
+   "finalist": false,
+   "revealed": true,
+   "about": "Write the project description here: the problem it solves, how it works, who it helps and what makes it different. Two or three short paragraphs work well.",
+   "technologies": [
+    "Arduino",
+    "IoT",
+    "C++",
+    "MQTT"
+   ],
+   "video": "https://youtu.be/YW7Uc5_ixtM?si=9Y_JLoCrg9rj3fVP",
+   "gallery": [
+    "https://www.abinya.in/gallery/f1.webp",
+    "https://www.abinya.in/gallery/f2.webp",
+    "https://www.abinya.in/gallery/f3.webp",
+    "https://www.abinya.in/gallery/f4.webp"
+   ],
+   "developers": [
+    {
+     "name": "Developer Name",
+     "role": "Team Lead",
+     "photo": ""
+    },
+    {
+     "name": "Developer Name",
+     "role": "Backend Developer",
+     "photo": ""
+    },
+    {
+     "name": "Developer Name",
+     "role": "UI Designer",
+     "photo": ""
+    }
+   ],
+   "team": "Team Beta"
+  },
+  {
+   "id": 3,
+   "title": "Project Title Three",
+   "institute": "FET",
+   "category": "Energy",
+   "pitch": "One-line pitch goes here.",
+   "stall": "A03",
+   "photo": "https://www.abinya.in/gallery/f5.webp",
+   "finalist": false,
+   "revealed": true,
+   "about": "Write the project description here: the problem it solves, how it works, who it helps and what makes it different. Two or three short paragraphs work well.",
+   "technologies": [
+    "Solar PV",
+    "MATLAB",
+    "Power Electronics"
+   ],
+   "video": "",
+   "gallery": [
+    "https://www.abinya.in/gallery/f1.webp",
+    "https://www.abinya.in/gallery/f2.webp",
+    "https://www.abinya.in/gallery/f3.webp",
+    "https://www.abinya.in/gallery/f4.webp"
+   ],
+   "developers": [
+    {
+     "name": "Developer Name",
+     "role": "Team Lead",
+     "photo": ""
+    },
+    {
+     "name": "Developer Name",
+     "role": "Backend Developer",
+     "photo": ""
+    },
+    {
+     "name": "Developer Name",
+     "role": "UI Designer",
+     "photo": ""
+    }
+   ],
+   "team": "Team Gamma"
+  },
+  {
+   "id": 4,
+   "title": "Project Title Four",
+   "institute": "ITER",
+   "category": "Healthcare",
+   "pitch": "One-line pitch goes here.",
+   "stall": "A04",
+   "photo": "https://www.abinya.in/gallery/f1.webp",
+   "finalist": false,
+   "revealed": true,
+   "about": "Write the project description here: the problem it solves, how it works, who it helps and what makes it different. Two or three short paragraphs work well.",
+   "technologies": [
+    "TensorFlow",
+    "Python",
+    "Healthcare",
+    "Flask"
+   ],
+   "video": "",
+   "gallery": [
+    "https://www.abinya.in/gallery/f1.webp",
+    "https://www.abinya.in/gallery/f2.webp",
+    "https://www.abinya.in/gallery/f3.webp",
+    "https://www.abinya.in/gallery/f4.webp"
+   ],
+   "developers": [
+    {
+     "name": "Developer Name",
+     "role": "Team Lead",
+     "photo": ""
+    },
+    {
+     "name": "Developer Name",
+     "role": "Backend Developer",
+     "photo": ""
+    },
+    {
+     "name": "Developer Name",
+     "role": "UI Designer",
+     "photo": ""
+    }
+   ],
+   "team": "Team Delta"
+  },
+  {
+   "id": 5,
+   "title": "Project Title Five",
+   "institute": "ITER",
+   "category": "Web & Systems",
+   "pitch": "One-line pitch goes here.",
+   "stall": "A05",
+   "photo": "https://www.abinya.in/gallery/f6.webp",
+   "finalist": false,
+   "revealed": true,
+   "about": "Write the project description here: the problem it solves, how it works, who it helps and what makes it different. Two or three short paragraphs work well.",
+   "technologies": [
+    "React",
+    "Node.js",
+    "MongoDB",
+    "REST API"
+   ],
+   "video": "",
+   "gallery": [
+    "https://www.abinya.in/gallery/f1.webp",
+    "https://www.abinya.in/gallery/f2.webp",
+    "https://www.abinya.in/gallery/f3.webp",
+    "https://www.abinya.in/gallery/f4.webp"
+   ],
+   "developers": [
+    {
+     "name": "Developer Name",
+     "role": "Team Lead",
+     "photo": ""
+    },
+    {
+     "name": "Developer Name",
+     "role": "Backend Developer",
+     "photo": ""
+    },
+    {
+     "name": "Developer Name",
+     "role": "UI Designer",
+     "photo": ""
+    }
+   ],
+   "team": "Team Epsilon"
+  },
+  {
+   "id": 6,
+   "title": "Project Title Six",
+   "institute": "ITER",
+   "category": "Cybersecurity",
+   "pitch": "One-line pitch goes here.",
+   "stall": "A06",
+   "photo": "https://www.abinya.in/gallery/f5.webp",
+   "finalist": true,
+   "revealed": true,
+   "about": "Write the project description here: the problem it solves, how it works, who it helps and what makes it different. Two or three short paragraphs work well.",
+   "technologies": [
+    "Python",
+    "Cryptography",
+    "Network Security"
+   ],
+   "video": "",
+   "gallery": [
+    "https://www.abinya.in/gallery/f1.webp",
+    "https://www.abinya.in/gallery/f2.webp",
+    "https://www.abinya.in/gallery/f3.webp",
+    "https://www.abinya.in/gallery/f4.webp"
+   ],
+   "developers": [
+    {
+     "name": "Developer Name",
+     "role": "Team Lead",
+     "photo": ""
+    },
+    {
+     "name": "Developer Name",
+     "role": "Backend Developer",
+     "photo": ""
+    },
+    {
+     "name": "Developer Name",
+     "role": "UI Designer",
+     "photo": ""
+    }
+   ],
+   "team": "Team Zeta"
+  }
+ ]
+}

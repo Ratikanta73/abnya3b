@@ -1,0 +1,65 @@
+{
+  "event": {"date":"2026-12-06T09:00:00+05:30","dateLabel":"6th December 2026","registerUrl":"https://forms.gle/xN2eExVSLtFnEsXT9","techxpressUrl":"https://soatechxpress.in/","instagram":"https://www.instagram.com/soatechxpress","email":"team@soatechxpress.in"},
+  "stats": [{"label":"Teams on one floor","value":30},{"label":"Showcase projects","value":20},{"label":"TechXpress finalists","value":10},{"label":"Panel discussions","value":2}],
+  "collage": ["https://www.abinya.in/gallery/f1.webp","https://www.abinya.in/gallery/f2.webp","https://www.abinya.in/gallery/f3.webp","https://www.abinya.in/gallery/f4.webp"],
+  "schedule": [{"time":"Morning","what":"Exhibition opens"},{"time":"Midday","what":"Panel discussion 1"},{"time":"Afternoon","what":"Panel discussion 2"},{"time":"Evening","what":"Felicitation of Abinya 3.1 and SOA TechXpress winners"},{"time":"Night","what":"Cultural night"}],
+  "panels": [
+    {"topic":"Panel 1 Design In the AI Era","moderator":{"name":"Ratikanta","role":"Designer"},"panellists":[{"name":"Panellist 1","role":"Role","company":"Company","photo":"https://www.abinya.in/Faculty/f1.webp"},{"name":"Panellist 2","role":"Role","company":"Company","photo":"https://www.abinya.in/Faculty/f2.webp"},{"name":"Panellist 3","role":"Role","company":"Company","photo":"https://www.abinya.in/Faculty/f3.webp"}]},
+    {"topic":"Panel 2 Importance of Projects","moderator":{"name":"Rohan Kumar","role":"Tech Specialist"},"panellists":[{"name":"Panellist 1","role":"Role","company":"Company","photo":"https://www.abinya.in/Faculty/f4.webp"},{"name":"Panellist 2","role":"Role","company":"Company","photo":"https://www.abinya.in/Faculty/f5.webp"},{"name":"Panellist 3","role":"Role","company":"Company","photo":"https://www.abinya.in/Faculty/f1.webp"}]}
+  ],
+  "companies": [],
+  "testimonials": [
+    {"quote":"Such a great effort given by the students. All the projects are too good.","name":"Rojalini Gouda","org":"Bankify Technology Pvt. Ltd."},
+    {"quote":"All the projects were highly innovative and useful to mankind. Some of the projects can be patented also.","name":"Kiran Kumar Panda","org":"Atul Limited"},
+    {"quote":"Amazing designs and concepts, great presentation. Great experience overall.","name":"Satabdi Patnaik","org":"Tech Mahindra"},
+    {"quote":"Overall good efforts by the students, they can figure out the career quickly.","name":"Sathya Prakash S","org":"Ziffity Solutions"},
+    {"quote":"Super interesting! Students are killing it at their respective projects.","name":"Adriza","org":"Times Now"},
+    {"quote":"Projects were great, Ritesh sir liked the project Hyperion.","name":"Mohit Kumar","org":"LSEG"},
+    {"quote":"The students have done the project rather than considering it a mandatory part of their education. I wish them success in turning these ideas into reality.","name":"Sridevi Muppala","org":"Systech Solutions Private Limited"},
+    {"quote":"Projects were great, Ritesh sir liked the project Hyperion.","name":"Mohit Kumar","org":"LSEG"}
+  ],
+  "editions": [
+    {"year":"2024","name":"ABINYA 1.0","students":100,"projects":30,"url":"https://proxima-website.vercel.app/"},
+    {"year":"2025","name":"ABINYA 2.0","students":120,"projects":35,"url":"https://abinya.vercel.app/"},
+    {"year":"2026","name":"ABINYA 3.0","students":"154","projects":"51","url":"https://www.abinya.in/"}
+  ],
+
+
+"gallery": [
+  "images/gallery/g0.webp",
+  "images/gallery/g1.webp",
+  "images/gallery/g2.webp",
+  "images/gallery/g3.webp",
+  "images/gallery/g4.webp",
+  "images/gallery/g5.webp",
+  "images/gallery/g6.webp",
+  "images/gallery/g7.webp",
+  "images/gallery/g8.webp",
+  "images/gallery/g9.webp",
+  "images/gallery/g10.webp",
+  "images/gallery/g11.webp",
+  "images/gallery/g12.webp",
+  "images/gallery/g13.webp",
+  "images/gallery/g14.webp",
+  "images/gallery/g15.webp",
+  "images/gallery/g16.webp",
+  "images/gallery/g17.webp",
+  "images/gallery/g18.webp",
+  "images/gallery/g19.webp",
+  "images/gallery/g20.webp",
+  "images/gallery/g21.webp",
+  "images/gallery/g22.webp",
+  "images/gallery/g23.webp"
+],
+
+
+
+  "faculty": [
+    {"name":"Dr. Anukampa Behera","role":"Abinya Project Coordinator","photo":"https://www.abinya.in/Faculty/f1.webp"},
+    {"name":"Dr. Sikata Samantray","role":"ME Department Coordinator","photo":"https://www.abinya.in/Faculty/f2.webp"},
+    {"name":"Prakash Kumar Jha","role":"CSE Coordinator","photo":"https://www.abinya.in/Faculty/f3.webp"},
+    {"name":"Dr Bibekananda Jena","role":"EEE/EE Coordinator","photo":"https://www.abinya.in/Faculty/f4.webp"},
+    {"name":"Dr. Asim Dey","role":"EV Projects Coordinator","photo":"https://www.abinya.in/Faculty/f5.webp"}
+  ],
+  "venue": {"address":"3rd Floor, Central Library, ITER, Siksha ’O’ Anusandhan University, Bhubaneswar","students":[{"name":"","phone":""}],"facultyEmail":""}
+}

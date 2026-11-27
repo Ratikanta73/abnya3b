@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ABINYA 3.1 · Annual Project Showcase · SOA University</title>
+<meta name="description" content="ABINYA 3.1, Siksha ’O’ Anusandhan University’s annual project showcase, 6th December 2026. 30 student teams, two panels, one floor.">
+<meta property="og:title" content="ABINYA 3.1">
+<meta property="og:description" content="30 student teams. One floor. 6th December 2026.">
+<meta property="og:image" content="assets/share-1200x630.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!-- Add analytics snippet here before launch -->
+</head>
+<body>
+<header class="nav" id="nav">
+  <a href="#home" class="brand"><img src="https://www.abinya.in/logos/Abinya_logo.png" alt="ABINYA 3.1 logo"></a>
+  <nav aria-label="Main"><a href="#about">[About]</a><a href="#projects">[Projects]</a><a href="#panels">[Panels]</a><a href="#editions">[Editions]</a><a href="#gallery">[Gallery]</a><a href="#venue">[Venue]</a></nav>
+  <a class="pill-btn" data-register target="_blank" rel="noopener">Register</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+</header> 
+
+<main id="home">
+  <section class="hero">
+    <h1>Abinya <span>3.1</span></h1>
+    <span class="sticker">6 Dec<br>2026</span>
+    <div class="hero-row">
+      <p class="note">Siksha ’O’ Anusandhan University’s annual project showcase · <span id="dateLabel"></span></p>
+      <p class="mid">Innovation redefined, on demand.</p>
+      <div class="cta"><a class="yel" data-register target="_blank" rel="noopener">Register <i>→</i></a>
+        <a class="link" href="#projects">Explore projects</a>
+      </div>
+    </div>
+    <div class="countdown" id="countdown" aria-label="Countdown to the event"></div>
+  </section>
+
+  <section class="band"><div class="wordcloud" id="wordcloud" aria-label="Everyone who built a project at ABINYA 3.1"></div></section>
+  <div class="stats" id="stats"></div>
+
+  <section class="tx" id="techxpress">
+    <img id="txLogo" src="assets/techxpress-logo.png" alt="SOA TechXpress logo" onerror="this.remove()">
+    <p>10 teams in this showcase are finalists of SOA TechXpress 2026, a 24-hour multidisciplinary hackathon.</p>
+    <a class="pill-btn dark" id="txLink" target="_blank" rel="noopener">Visit TechXpress ↗</a>
+  </section>
+
+  <section class="sec" id="about">
+    <h2>about</h2>
+    <div class="about">
+      <div class="prose">
+        <p>Abinya is the annual project showcase of Siksha ’O’ Anusandhan University, where student-built projects meet industry. Edition 3.1 brings 30 teams to one floor: 20 showcase projects and 10 finalist teams from SOA TechXpress, the university’s 24-hour multidisciplinary hackathon.</p>
+        <p>Industry delegates, faculty and students walk the exhibition, question the builders and spot the ideas worth taking further. Two panel discussions bring practitioners on stage, and the day closes with the felicitation of Abinya 3.1 and SOA TechXpress winners, followed by a cultural night.</p>
+      </div>
+      <div class="tl"><h3>The day</h3><ol class="timeline" id="schedule"></ol></div>
+    </div>
+  </section>
+
+  <section class="sky" id="projects"><div class="in">
+    <h2>projects</h2>
+    <div class="tools">
+      <input type="search" id="search" placeholder="Search projects or teams" aria-label="Search projects">
+      <label class="toggle"><input type="checkbox" id="onlyFinal"> TechXpress finalists only</label>
+    </div>
+    <div class="pills" id="pills" role="group" aria-label="Filter by category"></div>
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty">No projects match. Clear the search or choose another category.</p>
+  </div></section>
+
+  <section class="sec" id="panels"><h2>panels</h2><div class="panels" id="panelList"></div></section>
+  <section class="sec" id="companies" hidden><h2>companies</h2><div class="marquee"><div id="logoRow"></div></div></section>
+
+  <section class="sec" id="feedback">
+    <h2>kind words</h2>
+    <div class="quotes" id="quotes"></div>
+  </section>
+
+  <section class="sec" id="editions"><h2>earlier editions</h2><div class="editions" id="editionList"></div></section>
+  <section class="sec" id="gallery"><h2>gallery</h2><div class="gallery" id="galleryGrid"></div></section>
+  <section class="sec" id="faculty"><h2>faculty</h2><div class="faculty" id="facultyList"></div></section>
+
+  <section class="sec" id="venue">
+    <h2>find us</h2>
+    <div class="venue">
+      <iframe title="Map to Central Library, ITER, SOA University" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Central+Library+ITER+Siksha+O+Anusandhan+University+Bhubaneswar&output=embed"></iframe>
+      <div class="info" id="venueInfo"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p class="parting">see you on the 6th?</p>
+  <div class="foot-row">
+    <div><img src="https://www.abinya.in/logos/Abinya_logo.png" alt="ABINYA 3.1" height="34"><p>Annual Project Showcase of Siksha ’O’ Anusandhan University</p><small>© 2026 ABINYA 3.1. All rights reserved.</small></div>
+    <div class="links" id="footLinks"></div>
+  </div>
+</footer>
+
+<a class="yel sticky-reg" data-register target="_blank" rel="noopener">Register <i>→</i></a>
+<div class="lightbox" id="lightbox" hidden><button aria-label="Close">&times;</button><img alt=""></div>
+<script src="wordcloud-names.js"></script>
+<script src="wordcloud.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
